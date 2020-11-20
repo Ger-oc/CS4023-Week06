@@ -61,6 +61,7 @@ fprintf(stdout, "r=%d : c=%d : %.2f\n", i, j , rows[i][j]);
        time(&end);
        local = localtime(&end);
        printf("# Time ended: %s", asctime(local));
+       printf("####End of file###");
 
    }
 }
